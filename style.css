@@ -1,3 +1,47 @@
 body {
-    background: #fc0;   
+    background: #fff;  
+    width: auto;    
+}
+
+h1 {
+    text-align: center;
+}
+
+#intro {
+    text-align: center;
+    color: #f00;
+}
+
+p {
+    text-align: center left;
+    margin: auto;
+    width: 400px;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#fun-int {
+    text-align: center;
+    color: green;
+}
+
+#fun-stuff {
+    background-color: blue;
+}
+
+table {
+    margin: auto;
+    padding: 25x 25px 25px 25px;
+    border-top: 5px solid #f00;
+    border-bottom: 5px solid #0f0;
+    border-right: 5px solid #00f;
+    border-left: 5px solid yellow;
+    border-spacing: 5px;
+}
+
+td {
+    padding: 10px 10px 10px 10px;
+    border: 2px dotted black;
 }
