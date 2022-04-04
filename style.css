@@ -9,13 +9,21 @@ h1 {
 
 #intro {
     text-align: center;
-    color: #f00;
+    color: green;
+}
+
+.circle {
+    border-radius: 100%;
+    border: 5px solid #fff;
+    background-image: linear-gradient(to bottom left, #0011ff, #00ff00);
+    width: 150px;
+    height: 150px;
+    margin: auto;   
 }
 
 p {
-    text-align: center left;
     margin: auto;
-    width: 400px;
+    width: auto;
     padding-left: 35%;
     padding-right: 35%;
     padding-top: 20px;
@@ -44,4 +52,18 @@ table {
 td {
     padding: 10px 10px 10px 10px;
     border: 2px dotted black;
+}
+
+.nav {
+    background-color: yellow;
+    margin: auto;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px 100px 0px 100px;
 }
