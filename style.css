@@ -5,11 +5,22 @@ body {
 
 h1 {
     text-align: center;
+    font-size: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#intro {
+h1:hover {
+    color: #0011ff;
+}
+
+h1:active {
+    color: green;
+}
+
+h2 {
     text-align: center;
     color: green;
+    font-size: 40px;
 }
 
 .circle {
@@ -22,17 +33,11 @@ h1 {
 }
 
 p {
+    text-indent: 10%;
     margin: auto;
     width: auto;
-    padding-left: 35%;
-    padding-right: 35%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-#fun-int {
-    text-align: center;
-    color: green;
+    padding: 20px 30% 20px 30%;
+    font-size: larger;
 }
 
 #fun-stuff {
@@ -47,6 +52,7 @@ table {
     border-right: 5px solid #00f;
     border-left: 5px solid yellow;
     border-spacing: 5px;
+    font-size: larger;
 }
 
 td {
@@ -55,7 +61,8 @@ td {
 }
 
 .nav {
-    background-color: yellow;
+    border: 2px solid black;
+    background-image: linear-gradient(rgb(4, 252, 231), rgb(117, 252, 21));
     margin: auto;
     text-align: center;
     width: auto;
