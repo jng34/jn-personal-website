@@ -36,3 +36,25 @@ document.addEventListener('keydown', function(e) {
         alert('Chef?');
     }
 });
+
+const homepage = document.querySelector('li#home');
+homepage.addEventListener('click', function() {
+    alert('HOME-cooking!')
+});
+
+const aboutpage = document.querySelector('li#about');
+aboutpage.addEventListener('click', function() {
+    alert('ABOUT time yet?')
+});
+
+const healthpage = document.querySelector('li#health');
+healthpage.addEventListener('click', function() {
+    alert('HEALTH is wealth.')
+});
+
+const contactpage = document.querySelector('li#contact');
+contactpage.addEventListener('click', function() {
+    alert('Drop me a line.')
+});
+
+
