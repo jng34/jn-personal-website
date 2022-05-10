@@ -76,3 +76,11 @@ td {
     font-size: 20px;
     padding: 0px 100px 0px 100px;
 }
+
+a:hover {
+    color:red;
+}
+
+q:hover {
+    color: #1100ff;
+}

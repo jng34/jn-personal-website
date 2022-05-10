@@ -57,4 +57,33 @@ contactpage.addEventListener('click', function() {
     alert('Drop me a line.')
 });
 
+//Creating a form and checklist
+const formHeader = document.getElementById('formHeader');
+formHeader.textContent = 'Blah blah blah';
+const form = document.createElement('form');
+
+document.getElementById('formDiv').appendChild(form)
+document.querySelector('form').id = 'form';
+
+//Creating input and append
+const input = document.createElement('input');
+input.type = 'text';
+input.className = 'textInput';
+form.appendChild(input);
+
+//Create label
+const label = document.createElement('label');
+label.textContent = 'Pop-Up Messages: ';
+form.prepend(label);
+    
+//Creating submit button next to input
+const submit = document.createElement('input');
+submit.type = 'submit'  //or submit.setAttribute('type','submit)
+form.append(submit)
+
+
+
+
+
+
 
